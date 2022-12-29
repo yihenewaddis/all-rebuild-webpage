@@ -1,0 +1,122 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin: 0px;
+}
+body{
+    font-size: 16px;
+}
+.wraper{    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/order-summary-component-main/images/pattern-background-desktop.svg');
+    background-position: -70px -400px ;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 227, 250);
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+
+    margin: 80px 60px;
+    border-radius: 10px;
+    background-color:#fff ;
+}
+.container img, .man{
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.anual img{
+    width:auto;
+    height: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.content h2{
+    padding-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.order p ,h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    opacity: 70%;
+}
+.anual-plane{
+    display: flex;
+    margin:25px 40px ;
+    align-items: center;
+    justify-content: space-around;
+}
+.anual{
+    display: flex;
+    align-items: center;
+}
+.anual img{
+   margin-top: 30px;
+   padding-right: 15px;
+}
+.proceed{
+    text-align: center;
+    border:1px solid black;
+    padding: 12px 12px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%); 
+    transition: 0.5s;
+    margin: 0px 30px;
+}
+.proceed h4 a{
+    color:#fff; 
+    text-decoration: none;
+  
+}
+.cancel{
+    text-align: center;
+    
+    padding: 12px 12px;
+    border-radius: 10px;
+    margin:20px ;
+    
+}
+ h4{
+    transition: 0.5s;
+}
+.cancel h4 a{
+    text-decoration: none;
+    color:black
+    
+}
+.cancel h4 a:hover{
+
+    color:red;
+}
+.proceed:hover{
+    background-color:   hsl(240, 80%, 66%);
+    box-shadow: hsla(hue, saturation, lightness, alpha);
+}
+.attribution{
+ font-size: 18px;   
+}
+@media(max-width:700px){
+    .wraper{
+        margin: 0px 0px;
+        background-image: url('/order-summary-component-main/images/pattern-background-mobile.svg');
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+    }   
+    .containetr{
+        margin: 10px 5px;
+    }
+}
+
