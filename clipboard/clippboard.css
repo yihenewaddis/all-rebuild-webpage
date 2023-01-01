@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:black;
+}
+body p{
+    opacity: 70%;
+    font-size: 18px;
+}
+ h2{
+    font-family: 'Bai Jamjuree''Segoe UI', 'Times New Roman', Times, serif;
+}
+
+.wraper{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    padding: 0px 0px;
+
+}
+header{
+    background-image:url('/clipboard-landing-page-master/images/bg-header-desktop.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.clogo{
+    text-align: center;
+   
+}
+.clogo img{
+    width:8%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.history{
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+.history p{
+   padding: 0px 200px;
+   
+}
+.history h2{
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600px;
+}
+.download {
+    width:500px;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+}
+.bottun{
+    width:80%;
+    padding: 15px 0px;
+    border-radius: 30px;
+    margin:3%;
+    text-align: center;
+    border:0px solid black;
+    background-color: hsl(233, 100%, 69%);
+    transition: 0.4s;
+}
+.bottun:hover{
+    background-color: hsl(171, 66%, 44%);
+
+}
+.keep{
+    padding: 0px 20px 20px 0px;
+    text-align: center;
+    width:70%;
+    margin: auto;
+}
+.keep h3{
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.keep p{
+    padding-bottom: 30px;
+}
+.download a{
+    text-decoration: none;
+    width:100%; 
+    color: #fff;
+   
+}
+.desktop{
+ display: flex;
+}
+.desktop img{
+    width: 50%;
+    padding-left: -10px;
+}
+.quick{
+    padding: 20px 20px 50px  50px;
+}
+ h2{
+   padding-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   opacity: 70%;
+}
+.quick p {
+    padding-bottom: 35px;
+}
+.access{
+    width:70%;
+    padding: 100px 10px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.access img{
+
+    width:400px;
+    margin: auto;
+}
+.im{
+    width: 100%;
+    text-align: center;
+}
+.im img{
+    width:90%;
+}
+.page{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    padding: 20px;
+}
+.page p{
+    width:100%;
+    padding: 5px 20px;
+    margin: auto;
+}
+.page img{
+    margin-bottom: 20px;
+}
+.ai p{
+    width:92%;
+}
+.google{
+    width:100%;
+    margin: auto;
+    
+    display: flex;
+    padding: 40px;
+}
+.google img{
+    width: 100px;
+    margin: 47px;
+   
+}
+.clipboard p{
+    width: 70%;
+
+}
+footer{
+    background-color: hsl(202, 16%, 90%);
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+}
+footer img{
+    width: 50px;
+    margin-top: 15px;
+}
+.Clogo{
+    margin: 10px 20px;
+    transition: 0.5s;
+}
+a{
+    transition: 0.5s;
+}
+.Clogo a{
+    
+    text-decoration: none;
+    color: rgb(21, 18, 18);
+    
+}
+.link a{
+    padding: 2px;
+}
+.Clogo a:hover{
+    
+   color:hsl(171, 66%, 44%)
+   
+}
+.facebook img{
+    width:30px;
+    margin-right: 15px;
+
+}
+.facebook a img:hover{
+    background-color:hsl(171, 66%, 44%)
+}
+@media(max-width:900px){
+    .wraper{
+        
+        width: 90%;
+       
+    
+    }
+    .download a{
+        display: block;
+        padding: 0 10%;
+    }
+    .history p{
+        padding: 0px 10px;
+        
+     }
+     .download {
+        width:200px;
+        margin: auto;
+        display: block;
+    } 
+    .bottun{
+        margin: 15px 0px;
+        width:100%;
+    }
+    .desktop{
+        display: block;
+         text-align: center;
+         width: 80%;
+         margin: auto;
+    
+       }
+       .desktop img{
+        width: 90%;
+        
+    }
+    .quick{
+        padding: 50px 20px 20px  20px;
+    }
+    .access{
+        width:60%;
+        padding: 100px 0px;
+    }
+    .page{
+        display:block;
+    }
+    .google img{
+        width:150px;
+        margin: auto;
+        padding: 30px;
+        display: block;
+    }
+    .clipboard p{
+        width: 100%;
+    
+    }
+    footer{
+        display: block;  
+        text-align: center;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .link{
+        padding: 4px;
+    }
+}
